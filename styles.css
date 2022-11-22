@@ -1,0 +1,79 @@
+@media (max-width: 600px){
+    * {
+      background-color: white;
+    }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  background-color: #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+#navbar ul {
+  padding: 0;
+}
+
+#navbar li {
+  list-style: none;
+  height: 40px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 15px;
+  border: 1px solid black;
+  color: black;
+}
+
+#navbar header {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#main-doc {
+  width: 80%;
+  position: absolute;
+  top:0;
+  right:0;
+  background-color: #F0F0F0;
+}
+
+.main-section {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 40px;
+}
+
+.main-section header {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.main-section li {
+  font-size: 18px;
+}
